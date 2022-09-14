@@ -48,16 +48,28 @@ body {
 
 .container {
   display: inline-block;
-  text-align: center;
+  /* text-align: center; */
   width: auto;
+  /* margin: auto; */
+  /* background-color: blueviolet; */
 }
 
-.article-gallery {
-  margin: 5px;
-  width: 350px;
+.article-container {
   /* text-align: center; */
-  margin: 10px;
   display: inline-block;
+  /* background-color: yellow; */
+  padding-left: 4%;
+}
+
+
+.article-gallery {
+  width: 360px;
+  text-align: center;
+  /* margin-right: 10px;
+  margin-bottom: 10px; */
+  display: inline-block;
+  /* background-color: red; */
+  margin: 10px;
 }
 
 .article-gallery img {
